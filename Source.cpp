@@ -49,9 +49,9 @@ void colorDetection()
 	}
 }
 
-/*int main()
+int main()
 {
 	cout << "Hello World!";
 	colorDetection();
 	return 0;
-}*/
+}
