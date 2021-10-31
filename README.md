@@ -6,9 +6,13 @@
 Place your pen in front of the camera and start playing the game. Move your pen while keeping it in the frame, so that you don't hit any of the hurdles. On the top left corner, score will appear and it will increase by 1 every second. On getting stuck, game will stop and user will be provided with two options, either you restart the game by pressing any key except for the "Enter key" or exit the game by pressing the "Enter key".  
 
 # Run Demo💻
-There is only one cpp file in this project: CrossTheHurdle - Game.cpp
+There are two cpp files in this project: CrossTheHurdle - Game.cpp and Source.cpp
 
-In the `main()` scope, there are two arrays, namely `vector<int> colors[]` and `Scalar markers[]`.
+Before start playing the game, user has to run Source.cpp file to get the range values for hue, saturation and value of the pen. User has to simply run this Source.cpp and get a pen in front of the camera. Now, start adjusting the values of `Hue Min`, `Hue Max`, `Saturation Min`, `Saturation Max`, `Value Min` and `Value Max` in the Track Bar until only the pen's cap is visible in the `Image mask` window. 
+
+Now, record these six values somewhere and go ahead with the second cpp file.
+
+In the `main()` scope of CrossTheHurdle - Game.cpp, there are two arrays, namely `vector<int> colors[]` and `Scalar markers[]`.
 
 `vector<int> colors[]` will have vector\<int> stored in them. And each of them will have 6 integers stored in them. These six variables represents hue (lower and upper), saturation (lower and upper) and value (lower and upper).
 
