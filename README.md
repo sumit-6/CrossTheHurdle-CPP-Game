@@ -7,6 +7,7 @@ Place your pen in front of the camera and start playing the game. Move your pen 
 
 # Run Demo💻
 There is only one cpp file in this project: CrossTheHurdle - Game.cpp
+
 In the `main()` scope, there are two arrays, namely `vector<int> colors[]` and `Scalar markers[]`.
 
 `vector<int> colors[]` will have vector\<int> stored in them. And each of them will have 6 integers stored in them. These six variables represents hue (lower and upper), saturation (lower and upper) and value (lower and upper).
