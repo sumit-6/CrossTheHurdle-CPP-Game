@@ -51,7 +51,6 @@ void colorDetection()
 
 int main()
 {
-	cout << "Hello World!";
 	colorDetection();
 	return 0;
 }
