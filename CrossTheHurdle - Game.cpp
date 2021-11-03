@@ -260,7 +260,7 @@ int main()
 	Scalar yellowMarker = { 0, 255, 255 };
 	vector<int> colors[] = { redPen, yellowPen };
 	Scalar markers[] = { redMarker, yellowMarker };
-	int n = 2;
+	int n = sizeof(colors)/sizeof(colors[0]);
 	Screen screen(colors, markers, n);
 	screen.Game();
 	return 0;
