@@ -22,3 +22,9 @@ Steps to run the project :-
 1. Set the values for `colors[]` and `markers[]` in the `main()` scope.
 2. Pass these two arrays as parameters to the constructor of object created in the `main()` scope.
 3. Run the program and start playing.
+
+# Results💻
+
+https://user-images.githubusercontent.com/75926522/177287714-e219a41b-ecee-4812-8489-47ebf5cf94b2.mp4
+
+
