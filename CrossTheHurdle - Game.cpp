@@ -254,12 +254,12 @@ public:
 
 int main()
 {
-	vector<int> redPen = { 70, 178, 88, 179, 255, 204 };
+	vector<int> redPen = { 158, 139, 118, 179, 255, 252 }; // {hueMin, saturationMin, valueMin, hueMax, saturationMax, valueMax}
 	Scalar redMarker = { 0, 0, 255 };
-	vector<int> yellowPen = { 20, 133, 153, 36, 255, 255 };
-	Scalar yellowMarker = { 0, 255, 255 };
-	vector<int> colors[] = { redPen, yellowPen };
-	Scalar markers[] = { redMarker, yellowMarker };
+	vector<int> bluePen = { 94, 87, 92, 135, 255, 255 }; // {hueMin, saturationMin, valueMin, hueMax, saturationMax, valueMax}
+	Scalar blueMarker = { 255, 0, 0 };
+	vector<int> colors[] = { redPen, bluePen };
+	Scalar markers[] = { redMarker, blueMarker };
 	int n = sizeof(colors)/sizeof(colors[0]);
 	Screen screen(colors, markers, n);
 	screen.Game();
